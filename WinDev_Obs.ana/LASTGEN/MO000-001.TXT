@@ -1,0 +1,183 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+abonne		NFI		nouveau fichier
+accueil		NFI		nouveau fichier
+adminaccueil		NFI		nouveau fichier
+adminperso		NFI		nouveau fichier
+alertes		NFI		nouveau fichier
+ann_coll		NFI		nouveau fichier
+annuaire		NFI		nouveau fichier
+auteurs		NFI		nouveau fichier
+bureau		NFI		nouveau fichier
+caes		NFI		nouveau fichier
+categories		NFI		nouveau fichier
+categoriesaccueils		NFI		nouveau fichier
+categoriesdemandes		NFI		nouveau fichier
+categoriesmodeles		NFI		nouveau fichier
+catpubli		NFI		nouveau fichier
+champs		NFI		nouveau fichier
+choixchamps		NFI		nouveau fichier
+client		NFI		nouveau fichier
+collaborations		NFI		nouveau fichier
+colors		NFI		nouveau fichier
+commentaires		NFI		nouveau fichier
+conges		NFI		nouveau fichier
+contacturgence		NFI		nouveau fichier
+contenusdemandes		NFI		nouveau fichier
+contrat		NFI		nouveau fichier
+demandes		NFI		nouveau fichier
+demandes_old		NFI		nouveau fichier
+devis		NFI		nouveau fichier
+domaines		NFI		nouveau fichier
+dompubli		NFI		nouveau fichier
+editeurs		NFI		nouveau fichier
+elementsdevis		NFI		nouveau fichier
+enseignements		NFI		nouveau fichier
+etape		NFI		nouveau fichier
+etat		NFI		nouveau fichier
+factureurs		NFI		nouveau fichier
+gestion		NFI		nouveau fichier
+grade		NFI		nouveau fichier
+groupesdemandes		NFI		nouveau fichier
+heberg		NFI		nouveau fichier
+historique		NFI		nouveau fichier
+historiquesservices		NFI		nouveau fichier
+infoperso		NFI		nouveau fichier
+informatique		NFI		nouveau fichier
+infosexternes		NFI		nouveau fichier
+infosexternesdemandes		NFI		nouveau fichier
+laboratoires		NFI		nouveau fichier
+lienacces		NFI		nouveau fichier
+lienannuairegestion		NFI		nouveau fichier
+lienauteurs		NFI		nouveau fichier
+lienbureau		NFI		nouveau fichier
+liencoll		NFI		nouveau fichier
+liendomaine		NFI		nouveau fichier
+liendomaine2		NFI		nouveau fichier
+lienediteurs		NFI		nouveau fichier
+lienenseignement		NFI		nouveau fichier
+lienmotcle		NFI		nouveau fichier
+lienprog		NFI		nouveau fichier
+lienpubli		NFI		nouveau fichier
+lienref		NFI		nouveau fichier
+lienresp		NFI		nouveau fichier
+lienrisques		NFI		nouveau fichier
+liensannuaireroles		NFI		nouveau fichier
+lienschamps		NFI		nouveau fichier
+lienschoix		NFI		nouveau fichier
+lienscontenusdemandes		NFI		nouveau fichier
+lienslisteschoix		NFI		nouveau fichier
+lienunitepubli		NFI		nouveau fichier
+liste		NFI		nouveau fichier
+listeschoix		NFI		nouveau fichier
+localisation		NFI		nouveau fichier
+modelesdemandes		NFI		nouveau fichier
+motscles		NFI		nouveau fichier
+naturesvisites		NFI		nouveau fichier
+organisme		NFI		nouveau fichier
+parametresaccueil		NFI		nouveau fichier
+passage		NFI		nouveau fichier
+pays		NFI		nouveau fichier
+periodes		NFI		nouveau fichier
+privee		NFI		nouveau fichier
+programmes		NFI		nouveau fichier
+projetsdemandes		NFI		nouveau fichier
+publications		NFI		nouveau fichier
+responsabilites		NFI		nouveau fichier
+responsable		NFI		nouveau fichier
+responsablesplateformes		NFI		nouveau fichier
+responsablesstations		NFI		nouveau fichier
+resume		NFI		nouveau fichier
+revues		NFI		nouveau fichier
+risques		NFI		nouveau fichier
+roles		NFI		nouveau fichier
+service		NFI		nouveau fichier
+statutsdemandes		NFI		nouveau fichier
+tvaliste		NFI		nouveau fichier
+typepubli		NFI		nouveau fichier
+typeschamps		NFI		nouveau fichier
+typesdemandes		NFI		nouveau fichier
+annuaire		NWL	annuaire (id) et abonne (idperso)	Nouvelle liaison entre les fichiers annuaire (id) et abonne (idperso)
+liste		NWL	liste (idliste) et abonne (idliste)	Nouvelle liaison entre les fichiers liste (idliste) et abonne (idliste)
+annuaire		NWL	annuaire (id) et accueil (idperso)	Nouvelle liaison entre les fichiers annuaire (id) et accueil (idperso)
+annuaire		NWL	annuaire (id) et accueil (referent)	Nouvelle liaison entre les fichiers annuaire (id) et accueil (referent)
+etape		NWL	etape (idetape) et accueil (etape)	Nouvelle liaison entre les fichiers etape (idetape) et accueil (etape)
+contrat		NWL	contrat (idcontrat) et accueil (contrat)	Nouvelle liaison entre les fichiers contrat (idcontrat) et accueil (contrat)
+annuaire		NWL	annuaire (id) et adminaccueil (id_perso)	Nouvelle liaison entre les fichiers annuaire (id) et adminaccueil (id_perso)
+responsable		NWL	responsable (idresponsable) et adminaccueil (id_responsable)	Nouvelle liaison entre les fichiers responsable (idresponsable) et adminaccueil (id_responsable)
+annuaire		NWL	annuaire (id) et adminperso (idperso)	Nouvelle liaison entre les fichiers annuaire (id) et adminperso (idperso)
+organisme		NWL	organisme (idorganisme) et adminperso (organisme)	Nouvelle liaison entre les fichiers organisme (idorganisme) et adminperso (organisme)
+grade		NWL	grade (idgrade) et adminperso (grade)	Nouvelle liaison entre les fichiers grade (idgrade) et adminperso (grade)
+categories		NWL	categories (idcat) et adminperso (categorie)	Nouvelle liaison entre les fichiers categories (idcat) et adminperso (categorie)
+etape		NWL	etape (idetape) et alertes (id_etape)	Nouvelle liaison entre les fichiers etape (idetape) et alertes (id_etape)
+infosexternes		NWL	infosexternes (id) et annuaire (infos_externes)	Nouvelle liaison entre les fichiers infosexternes (id) et annuaire (infos_externes)
+projetsdemandes		NWL	projetsdemandes (id_projet_demande) et annuaire (projet_id)	Nouvelle liaison entre les fichiers projetsdemandes (id_projet_demande) et annuaire (projet_id)
+service		NWL	service (idservice) et annuaire (service)	Nouvelle liaison entre les fichiers service (idservice) et annuaire (service)
+localisation		NWL	localisation (id_lieu) et annuaire (id_lieu)	Nouvelle liaison entre les fichiers localisation (id_lieu) et annuaire (id_lieu)
+localisation		NWL	localisation (id_lieu) et bureau (idlocalisation)	Nouvelle liaison entre les fichiers localisation (id_lieu) et bureau (idlocalisation)
+typeschamps		NWL	typeschamps (id_type_champ) et champs (type_champ)	Nouvelle liaison entre les fichiers typeschamps (id_type_champ) et champs (type_champ)
+annuaire		NWL	annuaire (id) et commentaires (utilisateur)	Nouvelle liaison entre les fichiers annuaire (id) et commentaires (utilisateur)
+demandes		NWL	demandes (id_demande) et commentaires (demande)	Nouvelle liaison entre les fichiers demandes (id_demande) et commentaires (demande)
+annuaire		NWL	annuaire (id) et conges (idperso)	Nouvelle liaison entre les fichiers annuaire (id) et conges (idperso)
+pays		NWL	pays (id) et contacturgence (pays)	Nouvelle liaison entre les fichiers pays (id) et contacturgence (pays)
+modelesdemandes		NWL	modelesdemandes (id_modele_demande) et contenusdemandes (modele_demande)	Nouvelle liaison entre les fichiers modelesdemandes (id_modele_demande) et contenusdemandes (modele_demande)
+categoriesdemandes		NWL	categoriesdemandes (id_categorie_demande) et contenusdemandes (categorie_demande)	Nouvelle liaison entre les fichiers categoriesdemandes (id_categorie_demande) et contenusdemandes (categorie_demande)
+typesdemandes		NWL	typesdemandes (id_type_demande) et contenusdemandes (type_demande)	Nouvelle liaison entre les fichiers typesdemandes (id_type_demande) et contenusdemandes (type_demande)
+modelesdemandes		NWL	modelesdemandes (id_modele_demande) et demandes (modele_demande)	Nouvelle liaison entre les fichiers modelesdemandes (id_modele_demande) et demandes (modele_demande)
+periodes		NWL	periodes (id_periode) et demandes (periode_retenue)	Nouvelle liaison entre les fichiers periodes (id_periode) et demandes (periode_retenue)
+infosexternesdemandes		NWL	infosexternesdemandes (id) et demandes (infosExternes)	Nouvelle liaison entre les fichiers infosexternesdemandes (id) et demandes (infosExternes)
+annuaire		NWL	annuaire (id) et demandes (demandeur)	Nouvelle liaison entre les fichiers annuaire (id) et demandes (demandeur)
+factureurs		NWL	factureurs (id_factureur) et demandes (factureur)	Nouvelle liaison entre les fichiers factureurs (id_factureur) et demandes (factureur)
+statutsdemandes		NWL	statutsdemandes (id) et demandes (statut_id)	Nouvelle liaison entre les fichiers statutsdemandes (id) et demandes (statut_id)
+service		NWL	service (idservice) et domaines (equipe)	Nouvelle liaison entre les fichiers service (idservice) et domaines (equipe)
+domaines		NWL	domaines (iddomaine) et dompubli (iddomaine)	Nouvelle liaison entre les fichiers domaines (iddomaine) et dompubli (iddomaine)
+publications		NWL	publications (idref) et dompubli (idpubli)	Nouvelle liaison entre les fichiers publications (idref) et dompubli (idpubli)
+devis		NWL	devis (id) et elementsdevis (devis_id)	Nouvelle liaison entre les fichiers devis (id) et elementsdevis (devis_id)
+responsable		NWL	responsable (idresponsable) et etape (responsable)	Nouvelle liaison entre les fichiers responsable (idresponsable) et etape (responsable)
+annuaire		NWL	annuaire (id) et groupesdemandes (perso)	Nouvelle liaison entre les fichiers annuaire (id) et groupesdemandes (perso)
+demandes		NWL	demandes (id_demande) et groupesdemandes (demande)	Nouvelle liaison entre les fichiers demandes (id_demande) et groupesdemandes (demande)
+accueil		NWL	accueil (idaccueil) et heberg (idaccueil)	Nouvelle liaison entre les fichiers accueil (idaccueil) et heberg (idaccueil)
+accueil		NWL	accueil (idaccueil) et historique (idaccueil)	Nouvelle liaison entre les fichiers accueil (idaccueil) et historique (idaccueil)
+etape		NWL	etape (idetape) et historique (idetape)	Nouvelle liaison entre les fichiers etape (idetape) et historique (idetape)
+service		NWL	service (idservice) et historiquesservices (service)	Nouvelle liaison entre les fichiers service (idservice) et historiquesservices (service)
+annuaire		NWL	annuaire (id) et historiquesservices (personne)	Nouvelle liaison entre les fichiers annuaire (id) et historiquesservices (personne)
+annuaire		NWL	annuaire (id) et infoperso (idperso)	Nouvelle liaison entre les fichiers annuaire (id) et infoperso (idperso)
+pays		NWL	pays (id) et infosexternesdemandes (pays_etablissement)	Nouvelle liaison entre les fichiers pays (id) et infosexternesdemandes (pays_etablissement)
+categoriesaccueils		NWL	categoriesaccueils (id) et infosexternesdemandes (categorie_accueil)	Nouvelle liaison entre les fichiers categoriesaccueils (id) et infosexternesdemandes (categorie_accueil)
+annuaire		NWL	annuaire (id) et lienacces (idperso)	Nouvelle liaison entre les fichiers annuaire (id) et lienacces (idperso)
+informatique		NWL	informatique (idzone) et lienacces (idzone)	Nouvelle liaison entre les fichiers informatique (idzone) et lienacces (idzone)
+gestion		NWL	gestion (id) et lienannuairegestion (gestion_id)	Nouvelle liaison entre les fichiers gestion (id) et lienannuairegestion (gestion_id)
+annuaire		NWL	annuaire (id) et lienannuairegestion (personne_id)	Nouvelle liaison entre les fichiers annuaire (id) et lienannuairegestion (personne_id)
+annuaire		NWL	annuaire (id) et lienbureau (idperso)	Nouvelle liaison entre les fichiers annuaire (id) et lienbureau (idperso)
+bureau		NWL	bureau (idbureau) et lienbureau (idbureau)	Nouvelle liaison entre les fichiers bureau (idbureau) et lienbureau (idbureau)
+annuaire		NWL	annuaire (id) et liendomaine (idperso)	Nouvelle liaison entre les fichiers annuaire (id) et liendomaine (idperso)
+domaines		NWL	domaines (iddomaine) et liendomaine (iddomaine)	Nouvelle liaison entre les fichiers domaines (iddomaine) et liendomaine (iddomaine)
+annuaire		NWL	annuaire (id) et liendomaine2 (idperso)	Nouvelle liaison entre les fichiers annuaire (id) et liendomaine2 (idperso)
+domaines		NWL	domaines (iddomaine) et liendomaine2 (iddomaine)	Nouvelle liaison entre les fichiers domaines (iddomaine) et liendomaine2 (iddomaine)
+annuaire		NWL	annuaire (id) et lienrisques (idperso)	Nouvelle liaison entre les fichiers annuaire (id) et lienrisques (idperso)
+risques		NWL	risques (idrisque) et lienrisques (idrisque)	Nouvelle liaison entre les fichiers risques (idrisque) et lienrisques (idrisque)
+laboratoires		NWL	laboratoires (id_laboratoires) et liensannuaireroles (station_id)	Nouvelle liaison entre les fichiers laboratoires (id_laboratoires) et liensannuaireroles (station_id)
+annuaire		NWL	annuaire (id) et liensannuaireroles (personne_id)	Nouvelle liaison entre les fichiers annuaire (id) et liensannuaireroles (personne_id)
+roles		NWL	roles (id) et liensannuaireroles (role_id)	Nouvelle liaison entre les fichiers roles (id) et liensannuaireroles (role_id)
+listeschoix		NWL	listeschoix (id_liste_choix) et lienschamps (choix_unique)	Nouvelle liaison entre les fichiers listeschoix (id_liste_choix) et lienschamps (choix_unique)
+choixchamps		NWL	choixchamps (id) et lienschamps (choix_champ)	Nouvelle liaison entre les fichiers choixchamps (id) et lienschamps (choix_champ)
+contenusdemandes		NWL	contenusdemandes (id_contenu_demande) et lienschamps (contenu_demande)	Nouvelle liaison entre les fichiers contenusdemandes (id_contenu_demande) et lienschamps (contenu_demande)
+demandes		NWL	demandes (id_demande) et lienschamps (demande)	Nouvelle liaison entre les fichiers demandes (id_demande) et lienschamps (demande)
+champs		NWL	champs (id_champ) et lienschamps (champ)	Nouvelle liaison entre les fichiers champs (id_champ) et lienschamps (champ)
+listeschoix		NWL	listeschoix (id_liste_choix) et lienschoix (liste_choix)	Nouvelle liaison entre les fichiers listeschoix (id_liste_choix) et lienschoix (liste_choix)
+lienschamps		NWL	lienschamps (id_lien_champ) et lienschoix (lien_champ)	Nouvelle liaison entre les fichiers lienschamps (id_lien_champ) et lienschoix (lien_champ)
+contenusdemandes		NWL	contenusdemandes (id_contenu_demande) et lienscontenusdemandes (contenu_demande)	Nouvelle liaison entre les fichiers contenusdemandes (id_contenu_demande) et lienscontenusdemandes (contenu_demande)
+demandes		NWL	demandes (id_demande) et lienscontenusdemandes (demande)	Nouvelle liaison entre les fichiers demandes (id_demande) et lienscontenusdemandes (demande)
+devis		NWL	devis (id) et lienscontenusdemandes (devis_id)	Nouvelle liaison entre les fichiers devis (id) et lienscontenusdemandes (devis_id)
+listeschoix		NWL	listeschoix (id_liste_choix) et lienslisteschoix (liste_choix)	Nouvelle liaison entre les fichiers listeschoix (id_liste_choix) et lienslisteschoix (liste_choix)
+choixchamps		NWL	choixchamps (id) et lienslisteschoix (choix_champ)	Nouvelle liaison entre les fichiers choixchamps (id) et lienslisteschoix (choix_champ)
+categoriesmodeles		NWL	categoriesmodeles (id) et modelesdemandes (categorieModele_id)	Nouvelle liaison entre les fichiers categoriesmodeles (id) et modelesdemandes (categorieModele_id)
+laboratoires		NWL	laboratoires (id_laboratoires) et modelesdemandes (laboratoire_id)	Nouvelle liaison entre les fichiers laboratoires (id_laboratoires) et modelesdemandes (laboratoire_id)
+annuaire		NWL	annuaire (id) et passage (id_client)	Nouvelle liaison entre les fichiers annuaire (id) et passage (id_client)
+demandes		NWL	demandes (id_demande) et periodes (demande)	Nouvelle liaison entre les fichiers demandes (id_demande) et periodes (demande)
+pays		NWL	pays (id) et privee (pays)	Nouvelle liaison entre les fichiers pays (id) et privee (pays)
+annuaire		NWL	annuaire (id) et privee (idperso)	Nouvelle liaison entre les fichiers annuaire (id) et privee (idperso)
+contenusdemandes		NWL	contenusdemandes (id_contenu_demande) et responsablesplateformes (modele_demande)	Nouvelle liaison entre les fichiers contenusdemandes (id_contenu_demande) et responsablesplateformes (modele_demande)
+annuaire		NWL	annuaire (id) et responsablesplateformes (responsable)	Nouvelle liaison entre les fichiers annuaire (id) et responsablesplateformes (responsable)
+modelesdemandes		NWL	modelesdemandes (id_modele_demande) et responsablesstations (modele_demande)	Nouvelle liaison entre les fichiers modelesdemandes (id_modele_demande) et responsablesstations (modele_demande)
+annuaire		NWL	annuaire (id) et responsablesstations (responsable)	Nouvelle liaison entre les fichiers annuaire (id) et responsablesstations (responsable)
+Connexion_obs		CNX+		
